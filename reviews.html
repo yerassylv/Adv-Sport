@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Reviews </title>
+    <link rel="stylesheet" href="reviews.css">
+    <style>
+.custom-navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+    padding: 1rem 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.custom-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.custom-nav-item {
+    margin: 0 10px;
+}
+
+.custom-nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-nav-link:hover {
+    background-color: #010101;
+    color: white;
+}
+html,
+body {
+  height: 100vh; 
+  margin: 0;
+  padding: 0;
+
+}
+
+
+    </style>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" class="favicon">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="custom-navbar">
+            <ul class="custom-nav">
+                <li class="custom-nav-item"><a href="home.html" class="custom-nav-link">Home</a></li>
+                <li class="custom-nav-item"><a href="sports.html" class="custom-nav-link">Sports</a></li>
+                <li class="custom-nav-item"><a href="safetytips.html" class="custom-nav-link">Safety tips</a></li>
+                <li class="custom-nav-item"><a href="reviews.html" class="custom-nav-link">Reviews</a></li>
+                <li class="custom-nav-item"><a href="contacts.html" class="custom-nav-link">Contacts</a></li>
+            </ul>
+        </header>
+    </div>
+
+   
+  <header class="header">
+    <div class="overlay">
+    
+      <h1 style="font-size: 4rem;">Reviews</h1>
+    </div>
+  </header>
+
+  <section class="reviews">
+    <div class="review-card">
+      <img src="images/us1.jpg" alt="User 1" class="img1">
+    <h2>Yernar</h2>
+      <h3>Activity:Skiing</h3>
+      <p>Rating: ⭐⭐⭐⭐⭐</p>
+      <p>Amazing experience, great guides!</p>
+    </div>
+    <div class="review-card">
+      <img src="images/us2.jpg" alt="User 2">
+      <h2>Dias</h2>
+      <h3>Activity:Skydiving</h3>
+      <p>Rating: ⭐⭐⭐⭐</p>
+      <p>Exciting but challenging for beginners.</p>
+    </div>
+    <div class="review-card">
+      <img src="images/us3.jpg" alt="User 3">
+      <h2>Ansar</h2>
+      <h3>Activity:Paragliding</h3>
+      <p> Rating: ⭐⭐⭐⭐⭐</p>
+      <p>Thrilling experience with beautiful views.</p>
+    </div>
+    <div class="review-card">
+      <img src="images/us4.jpg" alt="User 4">
+      <h2>Asylzhan</h2>
+      <h3>Activity: Skiing</h3>
+      <p>Rating: ⭐⭐⭐⭐⭐</p>
+      <p>Unforgettable moments, highly recommend!</p>
+    </div>
+  </section>
+
+  <section class="reviews">
+    <div id="reviews-container">
+   
+    </div>
+  </section>
+
+  <section class="add-review">
+    <h2>Add Your Review</h2>
+    <form id="review-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="text" id="activity" placeholder="Adventure Activity (e.g., Skydiving)" required>
+      <textarea id="review" placeholder="Write your review here..." required></textarea>
+      <input type="number" id="rating" placeholder="Rating (1-5)" min="1" max="5" required>
+      <button type="submit" style="background-color: #343a40; color: white;">Submit Review</button>
+    </form>
+  </section>
+
+    <footer>
+    <p>© 2024 Adventure Sports. All rights reserved.</p>
+    <br>
+    <br>
+    <p> Contact: 230656@astanait.edu.kz | +7 (705) 555 1234</p>
+  </footer>
+    <script src="reviews.js"></script>
+
+</body>
+
+</html>

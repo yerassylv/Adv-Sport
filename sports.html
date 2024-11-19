@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Sports </title>
+  <link rel="stylesheet" href="sport.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" class="favicon">
+  <style>
+    body,
+    html {
+      background: linear-gradient(to bottom, #508dca, #e6d8d8);
+    }
+
+    header {
+      width: 100%;
+    }
+
+    .container-fluid {
+      padding: 0;
+    }
+
+    .custom-navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+    padding: 1rem 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    color: white;
+}
+
+.custom-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.custom-nav-item {
+    margin: 0 10px;
+}
+
+.custom-nav-link, .btn {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-nav-link:hover, .btn:hover {
+    background-color: rgb(2, 2, 2); 
+    color: white !important; 
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header class="custom-navbar">
+      <ul class="custom-nav">
+        <li class="custom-nav-item"><a href="home.html" class="custom-nav-link">Home</a></li>
+        <li class="custom-nav-item"><a href="sports.html" class="custom-nav-link">Sports</a></li>
+        <li class="custom-nav-item"><a href="safetytips.html" class="custom-nav-link">Safety Tips</a></li>
+        <li class="custom-nav-item"><a href="reviews.html" class="custom-nav-link">Reviews</a></li>
+        <li class="custom-nav-item"><a href="contacts.html" class="custom-nav-link">Contacts</a></li>
+      </ul>
+    </header>
+  </div>
+  <main class="container">
+    <div class="featurette">
+      <div class="text-section">
+        <h2>Paragliding</h2>
+        <p> <b>
+            Recommended Age: 18-60 years <br>
+            Physical Requirements: Good overall health, no severe heart or respiratory issues.<br>
+            Location: Tien Shan <br>
+            Duration: 20-30 minutes per flight <br>
+            Why Choose Paragliding? <br>
+            Paragliding offers an unmatched bird's-eye view of stunning landscapes, making it an ideal choice for
+            thrill-seekers. </b></p>
+      </div>
+      <div class="image-section">
+        <img src="images/paragliding.png" alt="Paragliding">
+      </div>
+    </div>
+
+    <div class="featurette">
+      <div class="text-section">
+        <h2>Skiing</h2>
+        <p> <b> Recommended Age: 5 years and above <br>
+            Physical Requirements: Basic physical fitness, no severe joint or back problems. <br>
+            Location: Shymbulak <br>
+            Season: December to March <br>
+            Why Choose Skiing? <br>
+            Skiing combines adrenaline with the beauty of snowy slopes. It's perfect for those who enjoy both speed and
+            nature. </b></p>
+      </div>
+      <div class="image-section">
+        <img src="images/skiingsport.png" alt="Skiing">
+      </div>
+    </div>
+
+    <div class="featurette">
+      <div class="text-section">
+        <h2>Skydiving</h2>
+        <p> <b> Recommended Age: 18-50 years <br>
+            Physical Requirements: Weight limit of 90-100 kg, no severe heart issues. <br>
+            Location: Astana <br>
+            Duration: 5-7 minutes freefall, total 20 minutes with preparation <br>
+            Why Choose Skydiving? <br>
+            Skydiving is the ultimate thrill, offering a unique perspective of the world while testing your limits and
+            courage. </b></p>
+      </div>
+      <div class="image-section">
+        <img src="images/skydiving.png" alt="Skydiving">
+      </div>
+    </div>
+  </main>
+
+  <section class="why-choose-us">
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li><img src="images/logo1.png" alt=""> Highest safety standards</li>
+      <li><img src="images/logo3.png"> Unique scenic locations</li>
+    </ul><br><br>
+
+    <h2> Our top guiders</h2>
+<div class="gallery-container">
+      <div class="gallery-item">
+        <img src="images/guider.png" alt="Thumbnail 1">
+        <p> Ruslan Omelchenko</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/guider1.png" alt="Thumbnail 2">
+        <p>Ahmethan Elvira</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/guider2.png" alt="Thumbnail 3">
+        <p>Abishov Erbol</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/guider3.png" alt="Thumbnail 4">
+        <p>Dei Evgeniy</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/guider4.png" alt="Thumbnail 5">
+        <p>Danov Sergei</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/guider5.png" alt="Thumbnail 6">
+        <p>Afanasyev Artyom</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">
+      <p>"Paragliding was a life-changing experience! Highly recommended."</p>
+      <h4>Arman</h4>
+    </div>
+    <div class="testimonial">
+      <p>"The skiing trails were amazing and perfectly maintained."</p>
+      <h4>Kamshat</h4>
+    </div>
+    <div class="testimonial">
+      <p>"Skydiving in Astana was the most thrilling moment of my life!"</p>
+      <h4>Nurasyl</h4>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 Adventure Sports. All rights reserved.</p>
+    <br>
+    <br>
+    <p> Contact: 230656@astanait.edu.kz | +7 (705) 555 1234</p>
+  </footer>
+</body>
+
+</html>
